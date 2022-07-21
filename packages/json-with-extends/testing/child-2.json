@@ -1,0 +1,4 @@
+{
+  "extends": "./child-1.json",
+  "w": 12
+}

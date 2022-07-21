@@ -1,0 +1,15 @@
+{
+  "name": "Base JSON",
+  "arr": [
+    {
+      "name": "Array 1"
+    },
+    {
+      "name": "Array 2"
+    }
+  ],
+  "obj": {
+    "x": 42,
+    "q": true
+  }
+}
