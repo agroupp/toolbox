@@ -1,20 +1,21 @@
 {
   "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "toolbox",
+  "npmScope": "@groupp",
   "affected": {
     "defaultBase": "master"
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "nx/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
         "cacheableOperations": [
           "build",
           "lint",
           "test",
           "e2e"
-        ]
+        ],
+        "accessToken": "OGI4NTk5YjAtYWMyYy00NTc2LWI4ZGEtZWZhY2Y0ZGI0NTAxfHJlYWQtd3JpdGU="
       }
     }
   }
