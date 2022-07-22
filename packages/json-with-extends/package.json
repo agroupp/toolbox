@@ -5,7 +5,14 @@
   "engines": {
     "node": ">=10.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agroupp/toolbox.git"
+  },
   "author": "Arthur Groupp <arth.groupp@gmail.com>",
   "license": "MIT",
-  "keywords": ["json"]
+  "keywords": ["json"],
+  "bugs": {
+    "url": "https://github.com/agroupp/toolbox/issues"
+  }
 }
